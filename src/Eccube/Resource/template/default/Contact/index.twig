@@ -113,8 +113,11 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
                                 {% endif %}
                             {% endfor %}
                             <div id="top_box__footer" class="row no-padding">
+                              <div class="col-sm-offset-4 col-sm-4">
+                                <div class="g-recaptcha" data-callback="validateRecaptcha" data-sitekey="6LdkFCoUAAAAAOwtu-OYCfiFKLBz9_ED1KlsEiOA"></div>
+                              </div>
                                 <div id="top_box__confirm_button" class="btn_group col-sm-offset-4 col-sm-4">
-                                    <p><button type="submit" class="btn btn-primary btn-block">確認ページへ</button></p>
+                                    <p><button type="submit" class="recaptcha btn btn-primary btn-block" disabled>確認ページへ</button></p>
                                 </div>
                             </div>
                         </form>
